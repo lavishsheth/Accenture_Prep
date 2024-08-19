@@ -10,10 +10,10 @@ class AB_Diff {
  public static int findCount(int arr[], int length, int num, int diff){
     int count=0;
     for(int i=0;i<length;i++){
-        if(Math.abs(arr[i]-num)<=diff){
-            count++;
-        }
+     if(Math.abs(arr[i]-num)<=diff){
+        count++;
+     }
     }
-    return count;
+   return count;
  }
 }
